@@ -1154,11 +1154,12 @@
 		53D229750C9611FF00276605 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-Wparentheses";
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Debug;
 		};
@@ -1169,13 +1170,13 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				OTHER_CFLAGS = "-Wparentheses";
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Release;
 		};
 		53D229860C96121700276605 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CURRENT_PROJECT_VERSION = 11;
 				DYLIB_COMPATIBILITY_VERSION = 4;
 				DYLIB_CURRENT_VERSION = 11;
@@ -1207,7 +1208,6 @@
 		53D229870C96121700276605 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CURRENT_PROJECT_VERSION = 11;
 				DYLIB_COMPATIBILITY_VERSION = 4;
 				DYLIB_CURRENT_VERSION = 11;
